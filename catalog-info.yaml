@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nginx-test
+  tags: ['nginx']
+  description: |
+    パイロット用コードコミット
+  links:
+    - title: f5 nginx website
+      url: https://www.f5.com/go/product/welcome-to-nginx
+    - title: nginx.org
+      url: https://nginx.org/en/
+spec:
+  type: website
+  owner: Team-DevOps
+  lifecycle: experimental
+  system: cbcpp-prod-engineering
