@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: nginx-test
+  name: nginx-test-0524
   tags: ['nginx']
   description: |
     パイロット用コードコミット
